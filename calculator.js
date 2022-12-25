@@ -44,7 +44,7 @@ document.querySelectorAll('.output-field').forEach(item => {
 item.addEventListener('keyup', event => {
     TotalCompensaton.value = parseInt(BaseSalary.value) + parseInt(Housing.value) + parseInt(Bonus.value);
 
-    let TotalCompensatonValue = TotalCompensaton.value;
+    let TotalCompensatonValue = parseFloat(TotalCompensaton.value).toFixed(2);
     return TotalCompensatonValue;
 })
 });
