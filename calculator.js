@@ -42,17 +42,9 @@ HousingStipend.addEventListener("keyup", () => {
 // Total Compensation Calculator
 document.querySelectorAll('.output-field').forEach(item => {
 item.addEventListener('keyup', event => {
-    TotalCompensaton.value = parseInt(BaseSalary.value) + parseInt(HousingStipend.value) + parseInt(Bonus.value);
+    TotalCompensaton.value = parseInt(BaseSalary.value) + parseInt(Housing.value) + parseInt(Bonus.value);
 
     let TotalCompensatonValue = TotalCompensaton.value;
     return TotalCompensatonValue;
 })
 });
-
-
-// HoursPerWeek.addEventListener("keyup", () => {
-//     BaseSalary.value = HourlySalary.value * Duration.value * HoursPerWeek.value;
-
-//     let BaseSalaryValue = BaseSalary.value;
-//     return BaseSalaryValue;
-// });
