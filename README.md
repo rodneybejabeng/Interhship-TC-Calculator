@@ -1,1 +1,1 @@
-# TC-Calculator
+# Internship-TC-Calculator
