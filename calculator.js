@@ -61,7 +61,7 @@ form.onsubmit = (e) => {
     console.log(MonthlySalary)
 
     //Monthly Salary
-    document.getElementById("MonthlySalary").innerHTML = `$ ${MonthlySalary}`;
+    document.getElementById("MonthlySalary").innerHTML = `$${MonthlySalary}`;
 };
 
 
